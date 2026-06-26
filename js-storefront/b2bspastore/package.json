@@ -41,6 +41,7 @@
     "@spartacus/product": "~221121.10.0",
     "@spartacus/product-configurator": "^221121.10.0",
     "@spartacus/qualtrics": "^221121.10.0",
+    "@spartacus/quote": "~221121.10.0",
     "@spartacus/setup": "~221121.10.0",
     "@spartacus/smartedit": "~221121.10.0",
     "@spartacus/storefinder": "~221121.10.0",
