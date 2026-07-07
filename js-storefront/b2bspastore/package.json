@@ -48,6 +48,7 @@
     "@spartacus/styles": "~221121.13.0",
     "@spartacus/tracking": "~221121.13.0",
     "@spartacus/user": "~221121.13.0",
+	"@spartacus/cds": "~221121.13.0",
     "angular-oauth2-oidc": "^20.0.2",
     "express": "^5.1.0",
     "i18next": "^25.7.4",
