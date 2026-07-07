@@ -79,6 +79,7 @@ import { OrganizationUserRegistrationFeatureModule } from './features/organizati
 import { OrganizationUnitOrderFeatureModule } from './features/organization/organization-unit-order-feature.module';
 import { ProductFutureStockFeatureModule } from './features/product/product-future-stock-feature.module';
 import { ProductConfiguratorFeatureModule } from './features/product-configurator/product-configurator-feature.module';
+import { CdsFeatureModule } from './features/cds/cds-feature.module';
 
 @NgModule({
   declarations: [],
@@ -158,6 +159,7 @@ import { ProductConfiguratorFeatureModule } from './features/product-configurato
     OrganizationUnitOrderFeatureModule,
     ProductFutureStockFeatureModule,
     ProductConfiguratorFeatureModule,
+    CdsFeatureModule,
   ],
   providers: [
     provideFeatureToggles({
