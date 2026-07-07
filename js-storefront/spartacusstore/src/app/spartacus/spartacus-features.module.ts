@@ -159,7 +159,6 @@ import { ProductConfiguratorFeatureModule } from './features/product-configurato
       productReviewCharactersLeft: true,
       a11yConfiguratorOverviewHeaderVPC: true,
       a11yFutureStockAccordionAriaControls: true,
-      enableReadDomainValuesOnDemand: true,
       storeFinderFacadeCleanup: true,
       defaultProductPageRouteAllowsNoProductName: true,
       consistentSizeProductCards: true,
