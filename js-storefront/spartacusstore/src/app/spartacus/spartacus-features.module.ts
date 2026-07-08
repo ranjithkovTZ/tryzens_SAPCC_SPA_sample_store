@@ -73,7 +73,6 @@ import { QualtricsFeatureModule } from './features/qualtrics/qualtrics-feature.m
 import { CustomerTicketingFeatureModule } from './features/customer-ticketing/customer-ticketing-feature.module';
 import { PickupInStoreFeatureModule } from './features/pickup-in-store/pickup-in-store-feature.module';
 import { ProductConfiguratorFeatureModule } from './features/product-configurator/product-configurator-feature.module';
-import { CdsFeatureModule } from './features/cds/cds-feature.module';
 @NgModule({
   declarations: [],
   imports: [
@@ -145,8 +144,7 @@ import { CdsFeatureModule } from './features/cds/cds-feature.module';
     QualtricsFeatureModule,
     CustomerTicketingFeatureModule,
     PickupInStoreFeatureModule,
-    ProductConfiguratorFeatureModule,
-	CdsFeatureModule
+    ProductConfiguratorFeatureModule
   ],
   providers: [
     provideFeatureToggles({
