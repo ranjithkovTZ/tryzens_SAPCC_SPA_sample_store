@@ -40,7 +40,7 @@ import { I18nConfig, provideConfig } from '@spartacus/core';
           configUrl:
             'https://tag.static.us.context.cloud.sap/config/htp746682007-powertools-spa-default',
           allowInsecureCookies: true,
-          sciEnabled: true,
+          sciEnabled: false,
         },
       },
     }),
