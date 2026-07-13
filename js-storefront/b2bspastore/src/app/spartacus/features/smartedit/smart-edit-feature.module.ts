@@ -13,14 +13,15 @@ import {
     provideConfig(<CmsConfig>{
       featureModules: {
         [SMART_EDIT_FEATURE]: {
-          module: () => import('@spartacus/smartedit').then((m) => m.SmartEditModule),
+          module: () =>
+            import('@spartacus/smartedit').then((m) => m.SmartEditModule),
         },
       },
     }),
     provideConfig(<SmartEditConfig>{
       smartEdit: {
-        storefrontPreviewRoute: 'STOREFRONT_PREVIEW_ROUTE_PLACEHOLDER',
-        allowOrigin: 'ALLOWED_ORIGIN_PLACEHOLDER',
+        storefrontPreviewRoute: 'cx-preview',
+        allowOrigin: 'jsapps.cm6zv4tbbk-tryzensau2-d1-public.model-t.cc.commerce.ondemand.com',
       },
     }),
   ],
