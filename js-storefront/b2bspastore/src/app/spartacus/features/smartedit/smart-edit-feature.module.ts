@@ -21,7 +21,7 @@ import {
     provideConfig(<SmartEditConfig>{
       smartEdit: {
         storefrontPreviewRoute: 'cx-preview',
-        allowOrigin: 'jsapps.cm6zv4tbbk-tryzensau2-d1-public.model-t.cc.commerce.ondemand.com',
+		allowOrigin: 'localhost:9002,backoffice.cm6zv4tbbk-tryzensau2-d1-public.model-t.cc.commerce.ondemand.com',
       },
     }),
   ],
